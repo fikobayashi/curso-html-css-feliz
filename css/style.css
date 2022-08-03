@@ -41,16 +41,67 @@ a::before {
     margin-right: 10px;   
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #f1c40f;
     box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms linear;
+        
+    
 }
 
-#button:hover {
+.btn-download {
+    margin-top: 38px;
+    margin-left: 181px;
+    margin-right: 92px;
+}
+
+.btn-contact {
+    width: 142px;
+}
+
+a.btn-contact {
+    display: inline-flex;
+    align-items: center;
+}
+
+.button:hover {
     /* background-color: #e74c3c; */
     transform: scale(1.08);
+}
+
+#title {
+    display: block;
+    width: 627px;
+    height: 184px;
+    margin-left: 91px;
+    margin-top: 116px;
+    background-color:#3A4042;
+    box-shadow: 10px 10px 0px #000;
+}
+
+#name {
+    display: inline-block;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #F25A70;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 90px;
+    padding-top: 30px;
+    line-height: 40px;
+    text-shadow: 5px 5px 0px #000;
+}
+
+#expertise {
+    display: inline-block;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-top: 15px;
+    line-height: 30px;
+    text-shadow: 5px 5px 0px #000;
 }
