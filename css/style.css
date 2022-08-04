@@ -6,7 +6,7 @@ header {
     background-color: #f08204;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
-    
+    width: 1400px;
 }
 
 h1 {
@@ -70,6 +70,13 @@ a.btn-contact {
 .button:hover {
     /* background-color: #e74c3c; */
     transform: scale(1.08);
+}
+
+#banner {
+    position: absolute;
+    width: 1440px;
+    height: 797px;
+    background: no-repeat url("/assets/img/photo.png"), url("/assets/img/photo1.png") ;
 }
 
 #title {
